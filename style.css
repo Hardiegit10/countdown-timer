@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(./images/background.jpg);
+    background-color: rgba(15, 15, 15, 0.027);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container h1 {
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 20px;
+    font-style: oblique;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+  
+.timer {
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.countdown-timer p{
+    padding: 10px;
+    text-align: center;
+}
+
+
+  
